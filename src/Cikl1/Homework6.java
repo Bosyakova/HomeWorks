@@ -1,3 +1,5 @@
+package Cikl1;
+
 import java.util.Scanner;
 
 public class Homework6 {

@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package Cikl1;
 
 public class Homeworkfib {
     public static void main(String[]args) {

@@ -7,16 +7,23 @@ public class Project {
         this.people = people;
     }
 
-    public void make(ITWorker[] people) {
+//    public void make(ITWorker[] people) {
+//        for (ITWorker itWorker : people) {
+//            if (itWorker instanceof CoffeeMaker) {
+//                CoffeeMaker coffeeMaker = (CoffeeMaker) itWorker;
+//                coffeeMaker.makeCoffee();
+//
+//            }
+//
+//        }
+//    }
+
+    public void workingDay(ITWorker[] people) {
         for (ITWorker itWorker : people) {
-            if (itWorker instanceof CoffeeMaker) {
-                CoffeeMaker coffeeMaker = (CoffeeMaker) itWorker;
-               coffeeMaker.makeCoffee();
-
-                }
-
+            if (itWorker instanceof Stager) {
+                itWorker.makeCoffee();
             }
         }
-
     }
+}
 

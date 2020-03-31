@@ -1,3 +1,5 @@
+package DoubleArray;
+
 public class DoubleArray3 {
     public static void main(String[] args) {
         char[][] doubleArray = new char[5][5];

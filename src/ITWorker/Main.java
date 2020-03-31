@@ -15,6 +15,6 @@ public class Main {
                 new ProgramDeveloper(Gradaciya.SENIOR),
         };
         Project project = new Project(people);
-        project.make(people);
+        project.workingDay(people);
     }
 }

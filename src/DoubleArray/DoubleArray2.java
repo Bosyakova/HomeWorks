@@ -1,3 +1,4 @@
+package DoubleArray;
 
 public class DoubleArray2 {
     public static void main(String[] args) {

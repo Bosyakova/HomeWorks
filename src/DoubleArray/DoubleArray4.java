@@ -1,3 +1,5 @@
+package DoubleArray;
+
 import java.util.Random;
 
 public class DoubleArray4 {
