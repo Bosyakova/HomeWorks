@@ -13,17 +13,17 @@ public abstract class AbstractLogger implements Logger {
     protected abstract boolean writeLog(String message);
 
     @Override
-    public void log(String message) throws IOException {
+    public void log(String message) {
         String LogMessage = constructLogMessage(LogType.INFO, message);
         writeLog(LogMessage);
     }
     @Override
-    public void log(LogType type, String message) throws IOException {
+    public void log(LogType type, String message) {
         String LogMessage = constructLogMessage(LogType.WARNING, message);
         writeLog(LogMessage);
     }
     @Override
-    public void log(Throwable t) throws IOException {
+    public void log(Throwable t)   {
         String LogMessage = constructLogMessage(LogType.ERROR, t.getMessage());
         writeLog(LogMessage);
     }

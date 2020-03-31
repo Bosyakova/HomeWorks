@@ -1,3 +1,5 @@
+package Massiv;
+
 import java.util.Scanner;
 
 public class Masiv10 {

@@ -1,22 +1,22 @@
-package Reflection;
+//package Reflection;
 
-import java.lang.reflect.Field;
+//import java.lang.reflect.Field;
 
-public class ReflectionExample {
-    Person person = new Person("Person1", 11);
-        System.out.println(person);
+//public class ReflectionExample {
+   // Person person = new Person("Person1", 11);
+       // System.out.println(person);
 
 
-    Class<Person> personClass = Person.class;
-        try {
-        Field nameField = personClass.getDeclaredField("name");
-        nameField.setAccessible(true);
-        nameField.set(person, "Peter");
-        nameField.setAccessible(false);
-        System.out.println(person);
-    } catch (NoSuchFieldException | IllegalAccessException e) {
-        e.printStackTrace();
-    }
+   // Class<Person> personClass = Person.class;
+       // try {
+       // Field nameField = personClass.getDeclaredField("name");
+        //nameField.setAccessible(true);
+       // nameField.set(person, "Peter");
+       // nameField.setAccessible(false);
+        //System.out.println(person);
+    //} catch (NoSuchFieldException | IllegalAccessException e) {
+      //  e.printStackTrace();
+    //}
 
 
 
@@ -29,4 +29,4 @@ public class ReflectionExample {
 //        for (Field field : fields) {
 //            System.out.println(field.getName());
 //        }
-}
+//}
